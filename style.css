@@ -1,8 +1,126 @@
+html,
 body {
+    margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /*color: blue;*/
-    background-color: azure;
-    /*background-image: url(Imagens/neom-n7SdozgzvyA-unsplash.jpg);
+    text-align: justify;
+}
+
+header {
+    background-color:white;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(4, 4, 67);
+    color: white;
+}
+
+#logo {
+    height: 70px;
+    position: absolute;
+    margin-left: 5%;
+    top: 5px;
+    background-color: rgba(255, 255, 255, 0.805);
+    padding: 5px;
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+}
+
+#itemmenu {
+    float: left;
+    padding: 10px 20px 10px 20px;
+    top: 0px;
+}
+
+#itemmenu:hover{
+    background-color:rgb(108, 169, 215);
+}
+
+#imagem {
+    background: url("Imagens/neom-n7SdozgzvyA-unsplash.jpg");
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    height: 100%;
     background-size: cover;
-    background-attachment: fixed;*/
+    /*position: relative;*/
+    text-align: center;
+}
+
+#imagemtext {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+#titulo {
+    color: white;
+    font-size: 70px;
+    line-height: 0.6;
+}
+
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px black;
+}
+
+#acao {
+    color: white;
+    background-color: rgba(27, 20, 92, 0.808);
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.destaque {
+    background-color: azure;
+    text-align: center;
+    width: 100%;
+}
+
+section {
+    float: left;
+}
+
+.conteudosection {
+    padding: 20px;
+}
+
+.coluna {
+    float: left;
+    padding: 1%;
+    position: relative;
+    width: 45%;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.fonte {
+    line-height: 10pt;
+    font-size: 60%;
+}
+
+footer{
+    background-color: rgb(4, 4, 67);
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
 }
